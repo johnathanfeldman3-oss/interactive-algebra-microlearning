@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solving Two-Step Equations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main>
+
+    <h1>Solving Two-Step Equations</h1>
+
+    <section>
+        <h2>Learning Objective</h2>
+        <p>
+            By the end of this lesson, you will be able to solve
+            two-step linear equations.
+        </p>
+    </section>
+
+    <section>
+        <h2>Let's Learn</h2>
+
+        <p>
+            To solve a two-step equation, first undo addition or
+            subtraction. Then undo multiplication or division.
+        </p>
+
+        <h3>Example</h3>
+
+        <p>
+            2x + 4 = 12
+        </p>
+
+        <p>
+            Subtract 4 from both sides:
+        </p>
+
+        <p>
+            2x = 8
+        </p>
+
+        <p>
+            Divide both sides by 2:
+        </p>
+
+        <p>
+            x = 4
+        </p>
+    </section>
+
+        </section>
+
+    <section>
+        <h2>Practice</h2>
+
+        <p>Solve the equation:</p>
+
+        <h3>3x + 6 = 18</h3>
+
+        <label for="answer">What is the value of x?</label>
+        <input type="number" id="answer">
+
+        <button onclick="checkAnswer()">Check Answer</button>
+
+        <p id="feedback"></p>
+    </section>
+    
+<section>
+    <h2>Knowledge Check</h2>
+
+    <p>Which step should you perform first to solve this equation?</p>
+
+    <h3>2x + 4 = 12</h3>
+
+    <button onclick="checkChoice('A')">
+        A. Divide both sides by 2
+    </button>
+
+    <button onclick="checkChoice('B')">
+        B. Subtract 4 from both sides
+    </button>
+
+    <button onclick="checkChoice('C')">
+        C. Add 4 to both sides
+    </button>
+
+    <button onclick="checkChoice('D')">
+        D. Multiply both sides by 4
+    </button>
+
+    <p id="choiceFeedback"></p>
+</section>
+
+<section>
+    <h2>Your Score</h2>
+
+    <p id="score">Score: 0 / 2</p>
+
+    <p id="completion"></p>
+
+    <button onclick="resetLesson()">Try Again</button>
+</section>
+</main>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

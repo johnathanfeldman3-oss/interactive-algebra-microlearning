@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #eef3f7;
+    color: #263238;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #17365d;
+    margin-bottom: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #17365d;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: left;
+    color: #17365d;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    margin: 10px 0;
+    border: 1px solid #b0bec5;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #1b46c5;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006f76;
+}
+
+#feedback,
+#choiceFeedback {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #17365d;
+}
+
+#completion {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: #17365d;
+}
+
+@media (max-width: 600px) {
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
